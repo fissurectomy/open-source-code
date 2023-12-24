@@ -7,7 +7,7 @@ local TopText = Instance.new("TextLabel")
 local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 TopFrame.Name = ";3"
-TopFrame.Parent = game:GetService('CoreGui').FE2Notifs
+TopFrame.Parent = game.Players.LocalPlayer.PlayerGui.FE2Notifs
 TopFrame.BackgroundColor3 = Color3.new(1, 1, 1)
 TopFrame.BackgroundTransparency = 1
 TopFrame.Position = UDim2.new(0.371764719, 0, 0, 0)
